@@ -1,0 +1,24 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  background-color: #000;
+}
+/* REGION - Text underline animation */
+.footer_wrapper {
+  width: 12rem;
+}
+.footer_text a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.text_underline {
+  width: 0%;
+  height: 1.5px;
+  background-color: #a441ff;
+  transition: width 0.5s ease-out;
+}
+.footer_text:hover .text_underline {
+  width: 100%;
+}
+/* REGION ENDED */
